@@ -14,7 +14,7 @@ const CommentContribution = (props) => {
       <Content name={props.author.name} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-          El/la diputado/a creó un nueva versión de la propuesta <b>{props.document.title}</b> y destacó su comentario como aporte. Para ver la nueva versión ingrese en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
+            Se creó una nueva versión de la propuesta <b>{props.document.title}</b> y han destacado tu comentario como aporte. Para ver la nueva versión ingrese en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
           </Span>
         </Item>
         <Item style={Style.itemStyle}>

@@ -7,7 +7,7 @@ const Content = (props) => {
     <Item style={Styles.contentStyle}>
       <Box style={Styles.boxStyle}>
         <Item align='center' style={Styles.titleContainer}>
-          <Span {...Styles.titleStyle}>Portal de <b>Leyes Abiertas</b></Span>
+          <Span {...Styles.titleStyle}>Portal de <b>PROPUESTAS</b></Span>
         </Item>
         {
           props.showName === undefined

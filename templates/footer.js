@@ -8,12 +8,13 @@ const MailFooter = (props) => {
     <Item style={Styles.footerStyle}>
       <Box align='center'>
         <Item align='center'>
-          <Image src='https://www.hcdn.gob.ar/system/modules/ar.gob.hcdn.frontend/resources/img/logo-hcdn-blanco.png' align='center' />
+          <Image src='https://causascomunes.org/static/img/logos/CC_LogoNegro_mediano.png' align='center' style={Styles.footerImgLogoStyle}/>
         </Item>
         <Item align='center'>
-          <Span {...Styles.textStyle}>
-            <b>Honorable Cámara de Diputados de la Nación Argentina</b> | Congreso de la Nación Argentina | Av. Rivadavia 1864 - Ciudad Autónoma de Bs. As. (C.P.C1033AAV) | (54-11) 4127-7100
-          </Span>
+          <a href='https://www.instagram.com/causascomunes/'><Image src='https://causascomunes.org/static/img/icons/social_instagram_icon.png' align='center' style={Styles.footerImgSocialStyle} /></a>
+          <a href='https://www.facebook.com/Causas-Comunes-449280685874685/'><Image src='https://causascomunes.org/static/img/icons/social_facebook_icon.png' align='center' style={Styles.footerImgSocialStyle} /></a>
+          <a href='https://twitter.com/causas_comunes'><Image src='https://causascomunes.org/static/img/icons/social_twitter_icon.png' align='center' style={Styles.footerImgSocialStyle} /></a>
+          <a href='mailto:causascomunesx@gmail.com'><Image src='https://causascomunes.org/static/img/icons/social_mail_icon.png' align='center' style={Styles.footerImgSocialStyle} /></a>
         </Item>
       </Box>
     </Item>

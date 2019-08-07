@@ -14,7 +14,7 @@ const CommentRead = (props) => {
       <Content name={props.author.name} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-            El/la diputado/a respondió a su comentario en el proyecto <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
+            Respondieron a tu comentario en la propuesta <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
           </Span>
         </Item>
         <Item style={Style.itemStyle}>

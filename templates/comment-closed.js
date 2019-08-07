@@ -62,6 +62,7 @@ const commentIconStyle = {
 
 const titleStyle = { fontSize: 24, fontWeight: 'bold', lineHeight: 'normal' }
 
+
 const CommentClosed = (props) => {
   return (
     <Email title='Cierre de comentarios' style={{ width: '100%', maxWidth: '700px' }}>
@@ -69,14 +70,14 @@ const CommentClosed = (props) => {
       <Content showName={false} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-          Finalizó el periodo para realizar aportes en el proyecto <b>{props.document.title}</b> en la que participó. Ingrese en <A href={ORGANIZATION_URL}>{ORGANIZATION_NAME}</A> para ver la versión final y los resultados del proceso de co-creación de normas.
+          Finalizó el periodo para realizar aportes en la propuesta <b>{props.document.title}</b> en la que participó. Ingrese en <A href={ORGANIZATION_URL}>{ORGANIZATION_NAME}</A> para ver la versión final y los resultados del proceso.
           </Span>
         </Item>
         <Item style={Style.itemStyle}>
           <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`} textDecoration='none'>
             <Box align='center' style={cardStyle}>
               <Item>
-                <Image src={props.document.imageCover} style={cardImgStyle} />
+                <Image src="https://causascomunes.org/static/img/manifiesto-background.svg" style={cardImgStyle} />
                 <Box style={cardLabelStyle}>
                   <Item>
                     <Span style={titleStyle}>{props.document.title}</Span>

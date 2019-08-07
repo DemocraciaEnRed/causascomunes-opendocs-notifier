@@ -5,9 +5,18 @@ module.exports.headerStyle = {
 }
 
 module.exports.footerStyle = {
-  backgroundColor: '#5c98bd',
+  backgroundColor: '#ffffff',
   padding: '35px 80px 50px',
-  color: '#fff'
+  border: 'solid 1px #e9e9e9',
+  color: '#000'
+}
+module.exports.footerImgSocialStyle = {
+  display: 'inline',
+  height: '40px',
+  margin: '15px 5px 0px'
+}
+module.exports.footerImgLogoStyle = {
+  height: '80px'
 }
 module.exports.textStyle = {
   color: 'white',

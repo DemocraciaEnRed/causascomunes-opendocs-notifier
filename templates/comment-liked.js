@@ -14,7 +14,7 @@ const CommentLiked = (props) => {
       <Content name={props.author.name} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-          El/la diputado/a apoyó el comentario que realizó en el proyecto <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
+          Apoyaron tu comentario en la propuesta <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
           </Span>
         </Item>
         <Item style={Style.itemStyle}>
