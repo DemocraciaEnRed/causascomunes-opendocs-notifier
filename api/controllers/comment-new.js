@@ -73,6 +73,7 @@ exports.post = async (req, res) => {
       message: 'Email scheduled'
     })
   } catch (err) {
+    console.log(err)
     res.status(INTERNAL_SERVER_ERROR).json({
       message: 'An error ocurred trying to schedule the email.',
       reason: err.message

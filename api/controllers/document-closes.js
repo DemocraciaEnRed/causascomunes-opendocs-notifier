@@ -12,6 +12,7 @@ exports.post = async (req, res) => {
       message: 'Closing event scheduled'
     })
   } catch (err) {
+    console.log(err)
     res.status(INTERNAL_SERVER_ERROR).json({
       message: 'An error ocurred trying to schedule the closing event.',
       reason: err.message
