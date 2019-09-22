@@ -32,7 +32,7 @@ const CommentRead = (props) => {
                 <div style={CommentContainerStyle.cardContentStyle}>
                   <div style={CommentContainerStyle.userContainerStyle}>
                     <Span {...CommentContainerStyle.userNameStyle}>
-                      <Image src={`${ORGANIZATION_API_URL}/api/v1/users/${props.author.id}`} style={CommentContainerStyle.userAvatarStyle} />
+                      <Image src={`${ORGANIZATION_API_URL}/api/v1/users/${props.author.id}/avatar`} style={CommentContainerStyle.userAvatarStyle} />
                       {props.author.fullname}
                     </Span>
                   </div>
